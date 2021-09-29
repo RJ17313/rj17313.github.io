@@ -1,6 +1,7 @@
 html {
     background: rgb(0,98,221);
     background: linear-gradient(90deg, rgba(0,98,221,1) 0%, rgba(0,68,167,1) 49%, rgba(0,53,142,1) 100%);
+    overflow-x: hidden;
 }
 
 a{
@@ -9,9 +10,15 @@ a{
 }
 
 .socialBox {
-    text-align: center;  
+    text-align: center;
     transition: transform 150ms ease-in-out;
 }
+
+.github{
+    width: 0px;
+}
+
+
 .socialBox:hover{
     transform: scale(1.2);
 }
