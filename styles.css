@@ -1,38 +1,29 @@
 html {
-    background: linear-gradient(270deg, #246deb, #002b75);
-    background-size: 400% 400%;
-
-    -webkit-animation: BackgroundAnimation 19s ease infinite;
-    -moz-animation: BackgroundAnimation 19s ease infinite;
-    animation: BackgroundAnimation 19s ease infinite;
-}
-
-@-webkit-keyframes BackgroundAnimation {
-    0%{background-position:96% 0%}
-    50%{background-position:5% 100%}
-    100%{background-position:96% 0%}
-}
-@-moz-keyframes BackgroundAnimation {
-    0%{background-position:96% 0%}
-    50%{background-position:5% 100%}
-    100%{background-position:96% 0%}
-}
-@keyframes BackgroundAnimation {
-    0%{background-position:96% 0%}
-    50%{background-position:5% 100%}
-    100%{background-position:96% 0%}
+    background: rgb(0,98,221);
+    background: linear-gradient(90deg, rgba(0,98,221,1) 0%, rgba(0,68,167,1) 49%, rgba(0,53,142,1) 100%);
 }
 
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.socialBox {
+    position: absolute;
+    text-align: center;
+    margin-left: 48.5vw;
+    margin-top: 10vh;
+    transition: transform 150ms ease-in-out;
+}
+.socialBox:hover{
+    transform: scale(1.2);
+}
 
 .main {
-    margin-top: 10vh;
-    margin-left: 25vw;
-    border-radius: 5vh;
-    width: 50vw;
+    margin-top: 20vh;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 5vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3vh;
     color: white;
-    background-color: rgb(41, 41, 41);
 }
