@@ -9,8 +9,7 @@ a{
 }
 
 .socialBox {
-    text-align: center;
-    margin-top: 10vh;   
+    text-align: center;  
     transition: transform 150ms ease-in-out;
 }
 .socialBox:hover{
