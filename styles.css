@@ -9,9 +9,7 @@ a{
 }
 
 .socialBox {
-    position: absolute;
     text-align: center;
-    margin-left: 48.5vw;
     margin-top: 10vh;   
     transition: transform 150ms ease-in-out;
 }
