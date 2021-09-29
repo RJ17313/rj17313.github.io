@@ -1,6 +1,29 @@
 html {
-    background-color: rgb(32, 32, 32);
+    background: linear-gradient(270deg, #246deb, #002b75);
+    background-size: 400% 400%;
+
+    -webkit-animation: BackgroundAnimation 19s ease infinite;
+    -moz-animation: BackgroundAnimation 19s ease infinite;
+    animation: BackgroundAnimation 19s ease infinite;
 }
+
+@-webkit-keyframes BackgroundAnimation {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+}
+@-moz-keyframes BackgroundAnimation {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+}
+@keyframes BackgroundAnimation {
+    0%{background-position:96% 0%}
+    50%{background-position:5% 100%}
+    100%{background-position:96% 0%}
+}
+
+
 
 .main {
     margin-top: 10vh;
