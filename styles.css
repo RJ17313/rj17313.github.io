@@ -1,32 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 html {
-    background: rgb(0,98,221);
-    background: linear-gradient(90deg, rgba(0,98,221,1) 0%, rgba(0,68,167,1) 49%, rgba(0,53,142,1) 100%);
-    overflow-x: hidden;
+    background-color: rgb(46, 46, 46);
+    font-family: 'Open Sans', sans-serif;
 }
 
-a{
+.material-icons.md-48 { 
+    font-size: 48px;
+}
+
+.titletext {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+
+.information {
+    color: white;
+    font-weight: 500;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 56px;
+    border-radius: 10px;
+    background-color: rgb(71, 71, 71);
+    transition: 0.3s;
+}
+
+.container:hover {
+    background-color: rgb(56, 56, 56);
+}
+
+.menuicon {
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    padding-left: 4px;
+    padding-top: 5px;
+}
+
+.sidebar {
+	height: 100%; 
+	width: 0; 
+	position: fixed; 
+	z-index: 1; 
+	top: 0;
+	left: 0;
+	background-color: rgb(31, 31, 31);
+	overflow-x: hidden;
+	padding-top: 10px;
+	transition: 0.5s;
+}
+
+.sidebarTitle {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.containerElements{ 
+    text-align: center;
+}
+
+.sidebarcontent {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
     text-decoration: none;
-    color: white;
 }
 
-.socialBox {
-    text-align: center;
-    transition: transform 150ms ease-in-out;
-}
-
-.github{
-    width: 0px;
-}
-
-
-.socialBox:hover{
+.sidebarcontent:hover {
+    color: rgb(255, 0, 0);
     transform: scale(1.2);
-}
-
-.main {
-    margin-top: 20vh;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 3vh;
-    color: white;
 }

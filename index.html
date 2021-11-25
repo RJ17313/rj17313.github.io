@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Ryan" property="og:title">
-    <meta content="This is my personal website, this will be mostly for personal use, the landing page I am currently working on and I plan to link some social media accounts" property="og:description">
     <title>Ryan's Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
+    <meta content="Ryan313" property="og:title">
+    <meta content="This is my personal website" property="og:description">
+
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="menuelements.js"></script>
+    <script src="https://kit.fontawesome.com/427d3e0036.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="main">
-        <h1>Ryan313</h1>
+    <h1 class="titletext">Hi there</h1>
+    <p class="information">Welcome to my website, I just had a complete rewrite as the last website design looked ugly. 
+        Feel free to look around, there are a few things I want to add to this site. 
+        I will also be putting a few other things on this site that you can check out in the bottom right by pressing the menu button.
+        This is a very early version of what this website will be so please stay tuned for the future. Thank you.
+    </p>
+    <div class="container" onclick=decide()>
+        <a class="material-icons md-48 menuicon">menu</a>
     </div>
 
-    <div class=socialBox>
-        <a href=https://github.com/RiguyBlitz class="fa fa-github fa-3x"></a>
+    <div id="theSidebar" class="sidebar">
+        <h1 class="sidebarTitle">Socials and Pages</h1>
+        <div class="containerElements">
+            <a class="fab fa-youtube fa-2x sidebarcontent" href="https://www.youtube.com/channel/UCRssZz6z8tyNlTSQNsvYCIA" target="_blank"></a>
+        </div>
     </div>
 </body>
 </html>
